@@ -1,0 +1,17 @@
+[package]
+name = "EMNetChain"
+version = "0.1.0"
+edition = "2021"
+authors = ["ElectroMutex"]
+description = "Chaining Server"
+license = "MIT"
+documentation = "https://github.com/SkillfulElectro/EMNetChain.git"
+homepage = "https://github.com/SkillfulElectro/EMNetChain.git"
+repository = "https://github.com/SkillfulElectro/EMNetChain.git"
+readme = "README.md"
+
+[dependencies]
+num_cpus = "1.16.0"
+EMDisi_lib = "0.1.5"
+json_parser_simple = "0.1.2"
+EMUtil = "0.1.1"
