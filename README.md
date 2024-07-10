@@ -47,6 +47,7 @@ and then waits till server replies in this format
     "id":"1234",
     "ip": "127.0.0.1:1224"
 }
+```
 ip will be ipv4:port of udp socket which lost its friend
 and server will reply this way if new friend is available
 ```json
