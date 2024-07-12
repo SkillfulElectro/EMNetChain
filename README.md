@@ -58,8 +58,6 @@ and server will reply this way if new friend is available
 ### EMUDP Server
 - to users get ipv4:port of their udp sockets , this server just echos the ipv4:port of connected clients https://github.com/SkillfulElectro/EMNet/tree/main/src/EMUDP
 
-## TODO
-- support dynamic ip addresses
 
 ## Conclusion
 EMNetChain, inspired by WebRTC, is a robust toolchain for creating and managing internet nodes. Its user-friendly design, based on JSON-structured texts and multiple crates, makes it ideal for educational purposes and versatile applications like VPNs and blockchains. Its unique protocol ensures network integrity, even during disconnections, making it a reliable solution for network management. 
