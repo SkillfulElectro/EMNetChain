@@ -13,7 +13,7 @@ use EMUtil::{is_valid_ipv4_port , search_vec};
 extern crate num_cpus;
 
 #[derive(Debug)]
-struct Peers {
+pub struct Peers {
     stream : net::TcpStream,
     head : String,
     tail : String,
@@ -27,7 +27,7 @@ static mut NUM_THREADS : usize = 0;
 
 
 
-fn start_chain_server(emchain_serv : &String) {
+pub fn start_chain_server(emchain_serv : &String) {
     if !is_valid_ipv4_port(&emchain_serv.trim().to_string()){
         println!("invalid ipv4:port");
         return;
@@ -66,7 +66,7 @@ fn start_chain_server(emchain_serv : &String) {
     drop(listener);
 }
 
-fn handle_client(mut stream: net::TcpStream) {
+pub fn handle_client(mut stream: net::TcpStream) {
     
 
     let mut buffer = [0; 1024];
@@ -114,7 +114,7 @@ fn handle_client(mut stream: net::TcpStream) {
     }
 }
 
-fn matcher(){
+pub fn matcher(){
     loop{
         unsafe{
             
