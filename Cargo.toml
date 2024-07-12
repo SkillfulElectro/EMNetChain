@@ -1,6 +1,6 @@
 [package]
 name = "EMNetChain"
-version = "0.1.0"
+version = "0.1.3"
 edition = "2021"
 authors = ["ElectroMutex"]
 description = "Chaining Server"
@@ -12,6 +12,6 @@ readme = "README.md"
 
 [dependencies]
 num_cpus = "1.16.0"
-EMDisi_lib = "0.1.5"
+EMDisi_lib = "0.1.7"
 json_parser_simple = "0.1.2"
 EMUtil = "0.1.1"
